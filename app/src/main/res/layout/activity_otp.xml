@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="8dp"
+        android:text="@string/eat_it"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_verify_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="8dp"
+        android:text="@string/enter_otp"
+        android:textColor="@color/colorButton"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_app_name" />
+
+    <TextView
+        android:id="@+id/text_enter_phone_number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:text="@string/sent_otp"
+        android:textAlignment="center"
+        android:textColor="@color/colorButton"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_verify_phone_number" />
+
+
+    <EditText
+        android:id="@+id/input_phone_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/input_bg"
+        android:hint="Phone Number"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_enter_phone_number" />
+
+    <Button
+        android:id="@+id/btn_verify_otp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/verify_otp"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_phone_number"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.syd.oden.circleprogressdialog.view.RotateLoading
+        android:id="@+id/loading_verify_otp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="16dp"
+        app:loading_color="@color/colorWhite"
+        app:loading_width="6dp"
+        app:shadow_offset="8dp"
+        app:layout_constraintEnd_toEndOf="@id/btn_verify_otp"
+        app:layout_constraintTop_toTopOf="@id/btn_verify_otp"
+        app:layout_constraintBottom_toBottomOf="@id/btn_verify_otp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

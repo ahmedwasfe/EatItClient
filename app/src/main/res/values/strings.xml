@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">EAT IT</string>
+
+
+    <string name="eat_it">EAT IT</string>
+
+    <string name="facebook_login">or continue with Facebook</string>
+    <string name="mobile_login">Continue with mobile number</string>
+    <string name="add_data">Add data</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Home">home</string>
+    <string name="title_activity_nav">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu">Categories</string>
+    <string name="menu_food">Food</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="populer_categories">Populer Categories</string>
+    <string name="best_deals">Best Deals</string>
+    <string name="menu_food_details">Food Details</string>
+    <string name="comment">Comment</string>
+    <string name="write_comment">Write a comment...</string>
+    <string name="thank_you">Thank you for rating</string>
+    <string name="delete_comment">Delete</string>
+    <string name="copy_comment">Copy</string>
+    <string name="size">Size</string>
+    <string name="add_on">Addon</string>
+    <string name="serach">Type a search...</string>
+    <string name="menu_cart">Cart</string>
+    <string name="cart_empty">EMPTY CART</string>
+    <string name="place_order">Place order</string>
+    <string name="delete">Delete</string>
+    <string name="action_clear_cart">Clear Cart</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="message_sign_out">Do you really want to sign out?</string>
+    <string name="delivery_method">Delivery Method</string>
+    <string name="home_address">Home Address</string>
+    <string name="other_address">Other Address</string>
+    <string name="ship_this_address">Ship to this address</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="braintree">Braintree</string>
+    <string name="on_more_step">One more step!</string>
+    <string name="cancel">CANCEL</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="enter_your_comment">Enter your comment</string>
+    <string name="your_address">Your Address</string>
+    <string name="menu_order">Orders</string>
+    <string name="welcome">Hey</string>
+    <string name="action_search">Search</string>
+    <string name="title_order">New Order</string>
+    <string name="content_order">You have a new order from</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_enter_phone">Please enter phone number</string>
+    <string name="please_enter_address">Please enter your address</string>
+    <string name="sign_up_success">Create account success</string>
+
+    <!-- google api key -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCM6_YT3qhO2LbSKvU9Naymbt0RueyFuLk</string>
+    <string name="menu_update_info">Update Info</string>
+    <string name="update_user_info">Update user information</string>
+    <string name="please_select_address">Please select your address</string>
+    <string name="update_user_info_success">Update user information success</string>
+    <string name="update">Update</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="messgae_cancel_order">Do you really want to cancel this order?</string>
+    <string name="cancel_order_success">Cancel order successfully</string>
+    <string name="card_name">Card Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="order_details">Order Details</string>
+    <string name="ok">Ok</string>
+    <string name="quantitiy">Quantity</string>
+    <string name="addon">Addon</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="enter_phone_number"><![CDATA[Please enter your Country Code & Phone number for verification]]></string>
+    <string name="generate_otp">generate otp</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="sent_otp">We have sent you an OTP for phone number verification</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="traking_order">Traking Order</string>
+    <string name="order_just_placed">"Your order just placed, must be wait it shipping "</string>
+    <string name="shipper_not_start">"Shipper not start ship your order, just wait "</string>
+    <string name="title_activity_tracking_order">Map</string>
+    <string name="order_update">Your order was update</string>
+    <string name="repeat_order">Repeat Order</string>
+    <string name="repeat_order_to_cart">Reapet your order to cart success</string>
+    <string name="size_addon">Addon Size</string>
+    <string name="category_not_found">Category not found</string>
+    <string name="food_id_not_found">Food Id not found</string>
+    <string name="default_addon">Default</string>
+    <string name="update_cart_success">Update addon and size in cart success</string>
+    <string name="call_shipper">call shipper</string>
+    <string name="enable_permission">You must enable this permission</string>
+    <string name="menu_aubacribe_news">News</string>
+    <string name="news_system">News System</string>
+    <string name="message_news_system">Do you want to subscribe news from our restaurant</string>
+    <string name="subscribe_news">Subscribe news</string>
+    <string name="send">SEND</string>
+    <string name="subscribe_success">Subscribe in the news successfully</string>
+    <string name="unsubscribe_success">UnSubscribe in the news</string>
+
+</resources>
